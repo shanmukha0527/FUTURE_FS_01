@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G Shanmukha Akhilesh - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-header">
+                <div class="nav-logo">PORTFOLIO</div>
+                <div class="nav-menu-toggle" id="navMenuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">G Shanmukha Akhilesh</h1>
+                <p class="hero-subtitle">Full-Stack Developer & Technology Enthusiast</p>
+                <p class="hero-description">
+                    Passionate about creating innovative solutions using modern web technologies. 
+                    Currently pursuing Computer Science Engineering with a focus on building impactful projects.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                        View My Work <i class="fas fa-external-link-alt"></i>
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        Get In Touch <i class="fas fa-envelope"></i>
+                    </button>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/shanmukha0527" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/akhilesh2702/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:akhileshgondrala27@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">A passionate developer with a strong foundation in both frontend and backend technologies</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Professional Profile</h3>
+                            <p>Currently pursuing Bachelor of Engineering in Computer Science at Guru Nanak Institutions Technical Campus 
+                            with an impressive 8.2 CGPA. Passionate about leveraging technology to solve real-world problems.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Technical Expertise</h3>
+                            <p>Experienced in full-stack development with proficiency in modern web technologies, 
+                            machine learning, and database management. Always eager to learn and adapt to new technologies.</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>Key Strengths</h3>
+                            <p>Strong communication skills, self-motivated learner, excellent team player with creativity, 
+                            adaptability, and exceptional time management abilities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="education-item">
+                            <h4>Bachelor of Engineering - CSE</h4>
+                            <p>Guru Nanak Institutions Technical Campus</p>
+                            <p>2022-2026 | CGPA: 8.2</p>
+                        </div>
+                        <div class="education-item">
+                            <h4>Intermediate - MPC</h4>
+                            <p>Sri Vasavi Kannika Paremeshwari Junior College</p>
+                            <p>2020-2022</p>
+                        </div>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                        <div class="certifications">
+                            <div class="cert-item"><i class="fas fa-star"></i> Python Foundation Certification (Infyspringboard)</div>
+                            <div class="cert-item"><i class="fas fa-star"></i> Basics of Python (Infyspringboard)</div>
+                            <div class="cert-item"><i class="fas fa-star"></i> Introduction to Microsoft Excel (Coursera)</div>
+                            <div class="cert-item"><i class="fas fa-star"></i> Deloitte Cyber Virtual Experience Program</div>
+                            <div class="cert-item"><i class="fas fa-star"></i> Accenture Data Analytics and Visualization Job Simulation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">A comprehensive toolkit for building modern web applications and solving complex problems</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon frontend">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><div class="skill-dot frontend"></div> HTML</div>
+                        <div class="skill-item"><div class="skill-dot frontend"></div> CSS</div>
+                        <div class="skill-item"><div class="skill-dot frontend"></div> JavaScript</div>
+                        <div class="skill-item"><div class="skill-dot frontend"></div> React.js</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon backend">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><div class="skill-dot backend"></div> Python</div>
+                        <div class="skill-item"><div class="skill-dot backend"></div> Node.js</div>
+                        <div class="skill-item"><div class="skill-dot backend"></div> Basic C</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon database">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><div class="skill-dot database"></div> MySQL</div>
+                        <div class="skill-item"><div class="skill-dot database"></div> MongoDB</div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon tools">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><div class="skill-dot tools"></div> Git</div>
+                        <div class="skill-item"><div class="skill-dot tools"></div> GitHub</div>
+                        <div class="skill-item"><div class="skill-dot tools"></div> Machine Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of my technical expertise and problem-solving abilities</p>
+            </div>
+
+            <div class="featured-projects">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3>Birthday Cake Animation Interface</h3>
+                        <a href="https://github.com/shanmukha0527/BIRTHDAY-WISHES-USING-HTML" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <p>Interactive HTML-based front-end project with smooth animations and engaging user experience.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <h3>Wine Quality Prediction ML Model</h3>
+                        <a href="https://github.com/shanmukha0527/wineprediction-using-ml" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <p>Machine learning project to predict wine quality using various parameters and algorithms.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="other-projects">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Online Ticket Reservation System</h3>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <p>Platform for booking tickets online with real-time availability and secure payment integration.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag small">Python</span>
+                        <span class="tech-tag small">MySQL</span>
+                        <span class="tech-tag small">Web Development</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Real-time Student Feedback System</h3>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <p>System for collecting and analyzing student feedback in real-time with interactive dashboards.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag small">JavaScript</span>
+                        <span class="tech-tag small">Database</span>
+                        <span class="tech-tag small">Real-time Updates</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>BLESSING BOWL - Food Donation Website</h3>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <p>A platform created to reduce food wastage and help orphanages and old age homes. Built with responsive design and user-friendly interface.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag small">HTML</span>
+                        <span class="tech-tag small">CSS</span>
+                        <span class="tech-tag small">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss opportunities and collaborate on exciting projects</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p><strong>Email</strong></p>
+                            <a href="mailto:akhileshgondrala27@gmail.com">akhileshgondrala27@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p><strong>Phone</strong></p>
+                            <a href="tel:+918341148309">+91-8341148309</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div>
+                            <p><strong>LinkedIn</strong></p>
+                            <a href="https://www.linkedin.com/in/akhilesh2702/" target="_blank">linkedin.com/in/akhilesh2702/</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/xgvkgeoj" method="POST" id="contactForm">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" placeholder="your@email.com" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+    </div>
+    <input type="hidden" name="_subject" value="New Portfolio Contact!">
+    <input type="hidden" name="_next" value="f_updated.html#thankyou">
+    <button type="submit" class="btn btn-primary" id="submitBtn">
+        Send Message <i class="fas fa-paper-plane"></i>
+    </button>
+</form>
+<div id="formStatus" class="form-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="thankyou" class="thankyou-section hidden">
+    <div class="thankyou-container">
+        <h1 class="thankyou-title">Thank You!</h1>
+        <p class="thankyou-message">Your message has been received. I’ll get back to you soon.</p>
+        <div class="thankyou-animation">🎉</div>
+        <a href="#" onclick="scrollToSection('home')" class="btn btn-primary">Back to Home</a>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 G Shanmukha Akhilesh. Built with HTML, CSS, and JavaScript.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/shanmukha0527" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/akhilesh2702/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:akhileshgondrala27@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
