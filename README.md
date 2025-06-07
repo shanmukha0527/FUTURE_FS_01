@@ -49,7 +49,7 @@ Fork or clone this repository
 Go to repository Settings
 Navigate to Pages section
 Select source branch (usually main)
-Your site will be available at: https://yourusername.github.io/repository-name/
+Your site will be available at: (https://shanmukha0527.github.io/FUTURE_FS_01)
 
 📱 Sections
 🏠 Home
